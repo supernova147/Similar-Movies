@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.main-heading{
+    text-align: center;
+    border: 0.1rem solid #171313;
+    background-color: rgb(3, 0, 155);
+    color:aliceblue;
+    border-radius: 0.01rem;
+}
+
+.intro{
+    text-align: center;
+    border-radius: 0.01rem;
+    color: white;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+#form_input{
+    border: 0.1rem solid #bebebe;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: gray;
+}
+
+#submit_button {
+    border: 0.1rem solid #bebebe;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 0, 155);
+}
+
+#submit_button:hover {
+    cursor: pointer;
+}
+
+#results {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+    background-color: rgb(75, 75, 222);
+}
+
+.movie-card {
+    border: 0.1rem solid #000000;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: white;
+    background-color: rgb(75, 75, 222);
+}
+.movie-card img {
+    width: 10rem;
+    height: auto;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: rgb(75, 75, 222);
+}
+.movie-card h3 {
+    color: white;
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+    background-color: rgb(75, 75, 222);
+}
+.movie-card p {
+    background-color: rgb(75, 75, 222);
+}
